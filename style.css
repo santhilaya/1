@@ -9,3 +9,7 @@
 .main {
   margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
 }
+header
+{
+  background: blue;
+}
