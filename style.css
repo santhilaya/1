@@ -13,3 +13,8 @@ header
 {
   background-color: blue;
 }
+div
+{
+  display: flex;
+  justify-content: space-around;
+}
