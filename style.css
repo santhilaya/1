@@ -5,6 +5,11 @@
   width: 100%; /* Full width */
 }
 
+body{
+
+  bg-color: blue;
+}
+
 /* Main content */
 .main {
   margin-bottom: 30px; /* Add a bottom margin to avoid content overlay */
