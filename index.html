@@ -76,7 +76,7 @@ footer{background:#222;color:#fff;text-align:center;padding:15px;margin-top:20px
 
 <header>
  <div class="top-bar">
-   <div class="logo">MYNTRALITE</div>
+   <div class="logo">Santhilaya Store</div>
    <div class="search-box"><input id="search" placeholder="Search..." onkeyup="renderProducts()"></div>
    <div class="nav-links">
      <a onclick="showPage('home')">Home</a>
@@ -90,7 +90,6 @@ footer{background:#222;color:#fff;text-align:center;padding:15px;margin-top:20px
    <a onclick="filterCategory('all')">All</a>
    <a onclick="filterCategory('men')">Men</a>
    <a onclick="filterCategory('women')">Women</a>
-   <a onclick="filterCategory('gadgets')">Electronics</a>
  </div>
 </header>
 
@@ -166,7 +165,7 @@ function addToCart(id){
  cart.push(products.find(p=>p.id===id));
  localStorage.setItem("cart",JSON.stringify(cart));
  updateCartCount();
- alert("Added to cart");
+ // alert("Added to cart");
 }
 
 function renderCart(){
